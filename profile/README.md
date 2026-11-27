@@ -21,6 +21,10 @@ Vendor neutral, across vLLM, SGLang, KServe and Kubernetes. Open source first.
 - `readyml versions`: which releases load a model's architecture.
 - `readyml trace`: where startup time went, from a server log.
 
+## serving-facts
+
+[serving-facts](https://github.com/subordinal/serving-facts) is the data behind it: open Parquet tables of runtime releases, architecture support, known startup failures and 2,028 measured startups, with the pipeline that builds and checks them.
+
 Website: [subordinal.github.io](https://subordinal.github.io)
 
 **Status:** early development.
