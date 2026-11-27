@@ -13,4 +13,12 @@ Large models take minutes to start, and sometimes they do not start at all. Subo
 
 Vendor neutral, across vLLM, SGLang, KServe and Kubernetes. Open source first.
 
-**Status:** early development. Nothing is released yet.
+## readyml
+
+[readyml](https://github.com/subordinal/readyml) is the open-source CLI. It downloads no weights and needs no GPU.
+
+- `readyml check`: a model against a vLLM or SGLang release and a GPU type.
+- `readyml versions`: which releases load a model's architecture.
+- `readyml trace`: where startup time went, from a server log.
+
+**Status:** early development.
