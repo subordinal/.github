@@ -21,4 +21,6 @@ Vendor neutral, across vLLM, SGLang, KServe and Kubernetes. Open source first.
 - `readyml versions`: which releases load a model's architecture.
 - `readyml trace`: where startup time went, from a server log.
 
+Website: [subordinal.github.io](https://subordinal.github.io)
+
 **Status:** early development.
